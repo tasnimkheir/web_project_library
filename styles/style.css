@@ -1,11 +1,11 @@
 .page {
   min-width: 1100px;
   max-width: 1600px;
-  font-family: 'arial', sans-serif;
+  font-family: "arial", sans-serif;
   font-size: 16px;
-  line-height:20px;
+  line-height: 20px;
   margin: 0 auto;
-  background-color:#fff;
+  background-color: #fff;
 }
 
 .header {
@@ -18,15 +18,11 @@
   position: relative;
   box-sizing: border-box;
   color: #000;
-
 }
 
 .nav {
-
   display: flex;
   justify-content: space-between;
-
-
 }
 
 .nav__logo {
@@ -37,8 +33,7 @@
 }
 
 .nav__links {
-
-  column-gap:20px;
+  column-gap: 20px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -46,7 +41,6 @@
   list-style-type: none;
   margin: 8px 0 0;
   color: #2f80ed;
-
 }
 
 .nav__link {
@@ -58,8 +52,6 @@
 .header__content {
   display: flex;
   justify-content: space-between;
-
-
 }
 
 .header__title {
@@ -68,7 +60,6 @@
   font-weight: 500px;
   max-width: 635px;
   margin: 128px 0 0;
-
 }
 
 .header__description {
@@ -77,14 +68,10 @@
   margin: 32px 0 0;
   max-width: 515px;
   text-align: justify;
-
 }
-
 
 .header__image {
   max-width: 636px;
-
-
 }
 
 .header__footer {
@@ -115,7 +102,6 @@
   justify-content: center;
   align-items: center;
   list-style-type: none;
-
 }
 
 .staff__title {
@@ -138,8 +124,8 @@
 
 /* adicionar a regra CSS para sua nova classe aqui. Certifique-se de colocar antes de .card: os pais devem preceder seus filhos */
 
-.staff__cards{
-  display:flex;
+.staff__cards {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -159,7 +145,6 @@
   width: 360px;
   height: 420px;
   gap: 40px;
-
 }
 
 .card__content {
@@ -188,4 +173,128 @@
   line-height: 20px;
   color: #838383;
   margin-top: auto;
+}
+
+.events {
+  padding: 100px 0 120px 80px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.events__content {
+  flex-basis: 580px;
+}
+
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0 0;
+}
+
+.events__info-section {
+  margin-top: 32px;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.event-info__icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  margin: 40px 0 60px;
+}
+
+.events__more {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.events__cover {
+  /* flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 780px;
+  max-width: 780px;
+  position: relative; */
+}
+
+.events__image {
+  /* max-width: 100%; */
+}
+
+.person {
+  /* position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px; */
+}
+
+.person_name_feynman {
+  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+}
+
+.person_name_burbidge {
+  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+}
+
+.person_name_cannon {
+  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+}
+
+.person_name_mitchell {
+  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+}
+
+.person_name_tarter {
+  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
+}
+
+.person__image {
+  /* max-width: 100%; */
+}
+
+.person__image_size_l {
+  /* width: 140px; */
+}
+
+.person__image_size_m {
+  /* width: 100px; */
+}
+
+.person__image_size_s {
+  /* width: 80px; */
+}
+
+.person__caption {
+  /* text-align: center;
+  font-size: 14px;
+  margin: 0; */
 }
